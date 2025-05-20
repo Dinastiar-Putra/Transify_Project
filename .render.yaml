@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: transify
+    name: Transify
     env: php
     buildCommand: ""
     startCommand: heroku-php-apache2 public/
