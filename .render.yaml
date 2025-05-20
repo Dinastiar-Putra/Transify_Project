@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: transify
+    env: php
+    buildCommand: ""
+    startCommand: heroku-php-apache2 public/
+    autoDeploy: true
